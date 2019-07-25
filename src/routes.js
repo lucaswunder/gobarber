@@ -7,7 +7,7 @@ routes.get('/', async (req, res) => {
   const user = await User.create({
     name: 'lucas',
     email: 'lucas2',
-    password_hash: '123',
+    password_hash: '1234',
   });
   return res.json({ message: user });
 });
